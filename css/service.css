@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* -------------------------------------------------nav starts from here------------------------------------------------------------- */
+nav{
+    width: 100%;
+    height: 50px;
+}
+.navbar-brand img{
+    height: 80px;
+    width: 100%;
+}
+
+.navbar-brand{
+    padding: 0;
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffff;
+}
+a.dropdown-item{
+    color: red;
+    font-weight: 700;
+}
+
+@media screen and ( max-width:1000px) {
+    nav{
+        width: 100%;
+        height: 100px;
+    }
+
+    .container-fluid{
+        background-color: black;
+    }
+}
+
+/* -------------------------------------------main starts from here--------------------------------------------------------------------*/
+
+main{
+    background-color: black;
+    height: auto;
+}
+
+/* ---------------------------------------------services------------------------------------------------------------------ */
+
+.services{
+    width: 100%;
+    padding-top: 2%;
+    
+}
+
+.services-info{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.services-header p{
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: underline red;
+    color: #ffff;
+    text-align: center;
+}
+
+.service-para p{
+    font-size: 18px;
+    color: #ffff;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 400;
+}
+
+.service-head{
+    width: 100%;
+    text-align: center;
+}
+
+.service-head p{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: underline red;
+    color: #ffff;
+
+}
+
+@media screen and ( max-width:900px ) {
+    
+    .service-para p{
+        text-align: justify;
+        
+    }
+}
+
+/* ---------------------------------------------footer------------------------------------------------------------------- */
+
+
+.footer-main{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.aki-main{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.aki-main p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.icons{
+    justify-content: center;
+    margin-left: 40%;
+}
+
+.aki-main img{
+    height: 80px;
+    width: fit-content;
+}
+
+.aki-list{
+    width: 20%;
+    margin-left: 5%;
+}
+
+.aki-list li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.aki-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+.foot_p{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.contact{
+    width: 20%;
+    margin-left: 5%;
+}
+
+.contact p.foot_p{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.contact p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.design-by{
+    width: 90%;
+    margin-left: 5%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2.5%;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #d8d8d8;
+}
+
+@media screen and ( max-width:900px) {
+    .footer-main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aki-main{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .aki-main img{
+        height: 60px;
+        width: fit-content;
+    }
+    
+    .aki-list{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    
+    .contact{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width:540px) {
+    .service-para p{
+        text-align: left;
+    }
+    .services-header p{
+        font-size: 28px;
+    }
+}

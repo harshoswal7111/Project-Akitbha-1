@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* -------------------------------------------------nav starts from here------------------------------------------------------------- */
+nav{
+    width: 100%;
+    height: 50px;
+}
+.navbar-brand img{
+    height: 80px;
+    width: 100%;
+}
+
+.navbar-brand{
+    padding: 0;
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffff;
+}
+a.dropdown-item{
+    color: red;
+    font-weight: 700;
+}
+
+@media screen and ( max-width:1000px) {
+    nav{
+        width: 100%;
+        height: 100px;
+    }
+
+    .container-fluid{
+        background-color: black;
+    }
+}
+
+/* -------------------------------------------main starts from here--------------------------------------------------------------------*/
+
+main{
+    background-color: black;
+    height: auto;
+}
+
+/* ---------------------------------------------projects------------------------------------------------------------------- */
+
+.our-projects{
+    width:100%;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.project-header p{
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: underline red;
+    color: #ffff;
+}
+
+.hospital-1 p{
+    font-size: 25px;
+    text-decoration: underline red;
+    color: #ffff;
+    font-weight: 700;
+    text-align: left;
+}
+
+.project-1{
+    margin-top: 2%;
+}
+
+.projects{
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.project-title{
+    width: 100%;
+}
+
+.project-title p{
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: underline red;
+    color: #ffff;
+}
+
+.projects-data p{
+    font-size: 18px;
+    color: #ffff;
+    text-align: justify;
+}
+
+button a{
+    text-decoration: none;
+    color: #ffff;
+    background-color: red none;
+}
+
+button{
+    background-color: red;
+    border-radius: 25px;
+    height: 40px;
+    width: 10%;
+    border-style: none;
+}
+
+.hotel-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.hotel-card section{
+    width: 50%;
+}
+
+@media screen and ( max-width:900px) {
+    button{
+        width: 40%;
+    }
+
+    .gallery{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* ---------------------------------------------footer------------------------------------------------------------------- */
+
+
+.footer-main{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.aki-main{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.aki-main p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.icons{
+    justify-content: center;
+    margin-left: 40%;
+}
+
+.aki-main img{
+    height: 80px;
+    width: fit-content;
+}
+
+.aki-list{
+    width: 20%;
+    margin-left: 5%;
+}
+
+.aki-list li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.aki-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+.foot_p{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.contact{
+    width: 20%;
+    margin-left: 5%;
+}
+
+.contact p.foot_p{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.contact p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.design-by{
+    width: 90%;
+    margin-left: 5%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2.5%;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #d8d8d8;
+}
+
+@media screen and ( max-width:900px) {
+    .footer-main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aki-main{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .aki-main img{
+        height: 60px;
+        width: fit-content;
+    }
+    
+    .aki-list{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    
+    .contact{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+}
+
+
+
+
+
+
+/* ----------------------------------------------------------- */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .card {
+    width: 30%;
+    margin: 1%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  .slider-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    margin-left: 10%;
+    height: 80%;
+    margin-top: 5%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+    overflow: hidden;
+  }
+
+  .slider-container::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    backdrop-filter: blur(5px); /* Adjust the blur amount as needed */
+    z-index: -1;
+  }
+
+  .slider {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+  }
+  .slider-content {
+    flex: 1;
+    overflow: hidden;
+  }
+  .slider-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .slider-text {
+    padding: 20px;
+    width: 30%;
+    background-color: #f4f4f4;
+    text-align: left;
+    padding-top: 5%;
+  }
+  .slider-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .slider-nav button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  @media screen and (max-width:1024px) {
+    button{
+        width: 25%;
+    }
+    
+  }
+  
+  @media screen and (max-width:412px) {
+    button{
+        width: 30%;
+        
+    }
+    
+  }
+  @media screen and (max-width:414px) {
+    button{
+        width: 30%;
+        
+    }
+    
+  }

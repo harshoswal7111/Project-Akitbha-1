@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* -------------------------------------------------nav starts from here------------------------------------------------------------- */
+nav{
+    width: 100%;
+    height: 50px;
+}
+.navbar-brand img{
+    height: 80px;
+    width: 100%;
+}
+
+.navbar-brand{
+    padding: 0;
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffff;
+}
+a.dropdown-item{
+    color: red;
+    font-weight: 700;
+}
+
+
+@media screen and ( max-width:1000px) {
+    
+    nav{
+        width: 100%;
+        height: 100px;
+    }
+
+    .container-fluid{
+        background-color: black;
+    }
+}
+
+/* ---------------------------------------------------carousel slide carousel-fade---------------------------------------------------- */
+
+.carousel{
+    height: 90vh;
+    width: 100%;
+}
+
+.carousel img{
+    height: 90vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-caption{
+    height:300px;
+    width: 20%;
+    background-color: black;
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 15%;
+}
+
+.carousel-caption h2{
+    padding-top: 15%;
+}
+
+.btn-qt{
+    height: 60px;
+    width: 100%;
+    background-color: crimson;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 20%;
+    color: rgb(255, 255, 255);   
+}
+
+.btn-qt a{
+    text-decoration: none;
+    color: #fff;
+}
+  .btn-qt:hover{
+  background-color: rgb(252, 55, 95);
+}
+
+.btn-qt a:hover{
+    color: #ffff;
+}
+
+/* -------------------------------------------main starts from here--------------------------------------------------------------------*/
+
+main{
+    background-color: black;
+    height: auto;
+}
+
+/* ------------------------------------------services starts from here-----------------------------------------------------------------*/
+
+.service-cards{
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+
+.services-header{
+    width: 100%;
+    text-align: center;
+}
+
+.services-header p{
+    width: 100%;
+    color: #ffff;
+    padding-top: 5%;
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: underline red;
+    margin-bottom: 4%;
+}
+
+
+.row {
+    width: 100%;
+}
+
+.row.col{
+    padding: 0%;
+}
+
+.card-img-top{
+    height: 250px;
+    
+}
+.card {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    transition: 0ms;
+    border-radius: 10px;
+    
+}
+.card:hover {
+    /* border: 5px solid #777; */
+    transition: 0.5s;
+    transform: scale(1.06);
+    padding: 1px 3px;
+}
+
+/* -----------------------------------------ABOUT STARTS FROM HERE----------------------------------------------------------------------*/
+
+.about{
+    width: 100%;
+    text-align: center;
+}
+
+.about_header{
+    width: 100%;
+}
+
+.about_text{
+    width: 100%;
+    text-align: justify;
+}
+
+.about-para p{
+    color: #ffff;
+    font-size: 18px;
+}
+
+.about_header p{
+    color: #ffff;
+    text-decoration: underline red;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.about-page{
+    width:90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-1{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-header_para p{
+    color: #fff;
+    font-size: 34px;
+    font-weight: 500;
+    height: auto;
+}
+
+section{
+    width: 50%;
+}
+
+.about-img{
+    width: 100%;
+}
+
+.responsive {
+    width: 100%;
+    margin-top: -10%;
+    height: auto;
+  }
+
+
+  @media screen and ( max-width:900px) {
+    .about-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section{
+        width: 100%;
+    }
+}
+
+
+/* --------------------------------------------OUR TEAM starts from here------------------------------------------------------------------ */
+
+.team{
+    width: 100%;
+    text-align: center;
+}
+
+.team p{
+    width: 100%;
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: underline red;
+    color: #ffff;
+}
+
+.team-pics{
+    width: 98%;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: red;
+}
+
+.founders{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.img_founder img{
+    border-radius: 1200px;
+    background-color: rgb(255, 255, 255);
+}
+
+.img_src{
+    border-radius: 1200px;
+    height: 355px;
+    width:100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.img_para p{
+    font-size: 20px;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.img_header p{
+    font-size: 20px;
+    color: #ffff;
+    text-decoration: none;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+@media screen and ( max-width:900px) {
+    .team-pics{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* ---------------------------------------------footer------------------------------------------------------------------- */
+
+
+.footer-main{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.aki-main{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.aki-main p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.icons{
+    justify-content: center;
+    margin-left: 40%;
+}
+
+.aki-main img{
+    height: 80px;
+    width: fit-content;
+}
+
+.aki-list{
+    width: 20%;
+    margin-left: 5%;
+}
+
+.aki-list li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.aki-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+.foot_p{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.contact{
+    width: 20%;
+    margin-left: 5%;
+}
+
+.contact p.foot_p{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.contact p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.design-by{
+    width: 90%;
+    margin-left: 5%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2.5%;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #d8d8d8;
+}
+
+@media screen and ( max-width:900px) {
+    .row{
+        width: 105%;
+        
+    }
+    .footer-main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aki-main{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .aki-main img{
+        height: 60px;
+        width: fit-content;
+    }
+    
+    .aki-list{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    
+    .contact{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+}

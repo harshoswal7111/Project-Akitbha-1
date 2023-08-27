@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* -------------------------------------------------nav starts from here------------------------------------------------------------- */
+nav{
+    width: 100%;
+    height: 50px;
+}
+.navbar-brand img{
+    height: 80px;
+    width: 100%;
+}
+
+.navbar-brand{
+    padding: 0;
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffff;
+}
+a.dropdown-item{
+    color: red;
+    font-weight: 700;
+}
+
+@media screen and ( max-width:1000px) {
+    nav{
+        width: 100%;
+        height: 100px;
+    }
+
+    .container-fluid{
+        background-color: black;
+    }
+}
+
+/* -------------------------------------------main starts from here--------------------------------------------------------------------*/
+
+main{
+    background-color: black;
+    height: auto;
+}
+
+/* ---------------------------------------------main-software------------------------------------------------------------ */
+
+.software{
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.software_header{
+    width: 100%;
+    text-align: center;
+}
+
+.software_header p{
+    width: 100%;
+    text-align: center;
+    color: #ffff;
+    text-decoration: underline red;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.software_para{
+    width: 100%;
+    text-align: center;
+    color: #ffff;
+    font-size: 18px;
+}
+
+.courses{
+    width: 95%;
+    margin-left: 3%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.header p{
+    width: 100%;
+    color: #ffff;
+    text-decoration: underline red;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.para p{
+    width: 100%;
+    text-align: justify;
+    color: #ffff;
+    font-size: 18px;
+    width: 90%;
+    margin-right: 5%;
+}
+/* ---------------------------------------------types-------------------------------------------------------------------- */
+
+/* ---------------------------------------------type-1------------------------------------------------------------------- */
+
+.type-1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+section{
+    width: 50%;
+}
+
+.img img{
+    background-color: #ffff;
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+/* ---------------------------------------------type-2------------------------------------------------------------------- */
+
+.type-2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+section{
+    width: 50%;
+}
+
+.img img{
+    background-color: #ffff;
+    width: 90%;
+    margin-left: 0%;
+    height:400px;
+    object-fit: contain;
+    object-position: center;
+}
+
+@media screen and ( max-width:900px ) {
+    .type-1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    
+    section{
+        width: 100%;
+    }
+    
+    .img img{
+        background-color: #ffff;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .type-2{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 5%;
+    }
+    
+    section{
+        width: 100%;
+    }
+    
+    .img img{
+        background-color: #ffff;
+        width: 90%;
+        margin-left: 0%;
+        height:400px;
+        object-fit: contain;
+        object-position: center;
+    }
+
+    .courses{
+        width: 100%;
+        margin-top: 10%;
+    }
+    
+    .header p{
+        width: 100%;
+        color: #ffff;
+        text-decoration: underline red;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+    .para p{
+        width: 100%;
+        text-align: justify;
+        color: #ffff;
+        font-size: 18px;
+        width: 90%;
+        margin-right: 5%;
+    }
+}
+
+
+
+/* ---------------------------------------------footer------------------------------------------------------------------- */
+
+
+.footer-main{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.aki-main{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.aki-main p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.icons{
+    justify-content: center;
+    margin-left: 40%;
+}
+
+.aki-main img{
+    height: 80px;
+    width: fit-content;
+}
+
+.aki-list{
+    width: 20%;
+    margin-left: 5%;
+}
+
+.aki-list li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.aki-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+.foot_p{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.contact{
+    width: 20%;
+    margin-left: 5%;
+}
+
+.contact p.foot_p{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.contact p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.design-by{
+    width: 90%;
+    margin-left: 5%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2.5%;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #d8d8d8;
+}
+
+@media screen and ( max-width:900px) {
+    .footer-main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aki-main{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .aki-main img{
+        height: 60px;
+        width: fit-content;
+    }
+    
+    .aki-list{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    
+    .contact{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+}

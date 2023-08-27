@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* -------------------------------------------------nav starts from here------------------------------------------------------------- */
+nav{
+    width: 100%;
+    height: 50px;
+}
+.navbar-brand img{
+    height: 80px;
+    width: 100%;
+}
+
+.navbar-brand{
+    padding: 0;
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffff;
+}
+a.dropdown-item{
+    color: red;
+    font-weight: 700;
+}
+
+@media screen and ( max-width:1000px) {
+    nav{
+        width: 100%;
+        height: 100px;
+    }
+
+    .container-fluid{
+        background-color: black;
+    }
+}
+
+/* -------------------------------------------main starts from here--------------------------------------------------------------------*/
+
+main{
+    background-color: black;
+    height: auto;
+}
+
+
+/* --------------------------------------------OUR TEAM starts from here------------------------------------------------------------------ */
+
+.about{
+    width: 100%;
+}
+
+.about-vision{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.vision-header{
+    width: 100%;
+    text-align: center;
+}
+
+.vision-header p{
+    width: 100%;
+    font-size: 50px;
+    font-weight: 700;
+    text-decoration: underline red;
+    color: #ffff;
+}
+
+.vision-para{
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.team-info{
+    width: 100%;
+}
+
+.about-team{
+    width: 75%;
+    margin-left: 12.5%;
+    padding-top: 2%;
+}
+
+.team-header{
+    width: 100%;
+    text-align: center;
+}
+
+.team-header p{
+    width: 100%;
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: underline red;
+    color: #ffff;
+}
+
+.team-para p{
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.team{
+    width: 100%;
+    text-align: center;
+}
+
+.team p{
+    width: 100%;
+    font-size: 50px;
+    font-weight: 700;
+    text-decoration: underline red;
+    color: #ffff;
+}
+
+.team-pics{
+    width: 98%;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.founders{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.img_founder img{
+    border-radius: 1200px;
+    background-color: rgb(255, 255, 255);
+}
+
+.img_src{
+    border-radius: 1200px;
+    height: 355px;
+    width:100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.img_para p{
+    font-size: 20px;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.img_header p{
+    font-size: 20px;
+    color: #ffff;
+    text-decoration: none;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+@media screen and ( max-width:900px) {
+    .team-pics{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* ---------------------------------------------footer------------------------------------------------------------------- */
+
+
+.footer-main{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.aki-main{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.aki-main p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.icons{
+    justify-content: center;
+    margin-left: 40%;
+}
+
+.aki-main img{
+    height: 80px;
+    width: fit-content;
+}
+
+.aki-list{
+    width: 20%;
+    margin-left: 5%;
+}
+
+.aki-list li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.aki-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+.foot_p{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.contact{
+    width: 20%;
+    margin-left: 5%;
+}
+
+.contact p.foot_p{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.contact p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.design-by{
+    width: 90%;
+    margin-left: 5%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2.5%;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #d8d8d8;
+}
+
+@media screen and ( max-width:900px) {
+    .footer-main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aki-main{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .aki-main img{
+        height: 60px;
+        width: fit-content;
+    }
+    
+    .aki-list{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    
+    .contact{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+}

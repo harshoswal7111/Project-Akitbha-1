@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a button{
+    background-color: red;
+    width: 100%;
+    color: #fff;
+}
+
+main{
+    background-color: black;
+    height: auto;
+}
+
+.pic-1{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+}
+
+.pic{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10%;
+}
+
+section{
+    width:45%;
+    margin-right: 2.5%;
+}
+
+.para{
+    width: 100%;
+}
+
+.info{
+    width:100%;
+    justify-content: center;
+}
+
+.header{
+    width: 100%;
+}
+
+.header p{
+    font-size:30px;
+    font-weight: 600;
+    color: #ffff;
+    text-decoration: underline red;
+    text-align: center;
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+}
+
+.location-header p{
+    font-size: 18px;
+    color: #fff;
+}
+
+.location-info p{
+    font-size: 18px;
+    color: #fff;
+    margin-left: 70%;
+    width: 100%;
+}
+
+.scope{
+    display: flex;
+    flex-direction: row;
+}
+
+.scope-header p{
+    font-size: 18px;
+    color: #fff;
+}
+
+.scope-info p{
+    font-size: 18px;
+    color: #fff;
+    margin-left: 10%;
+    width: 100%;
+}
+
+@media screen and ( max-width:900px) {
+    
+    .pic{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    section{
+        width:100%;
+
+    }
+
+}
+
+
+

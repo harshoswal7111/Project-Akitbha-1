@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* -------------------------------------------------nav starts from here------------------------------------------------------------- */
+nav{
+    width: 100%;
+    height: 50px;
+}
+.navbar-brand img{
+    height: 80px;
+    width: 100%;
+}
+
+.navbar-brand{
+    padding: 0;
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffff;
+}
+a.dropdown-item{
+    color: red;
+    font-weight: 700;
+}
+
+@media screen and ( max-width:1000px) {
+    nav{
+        width: 100%;
+        height: 100px;
+    }
+
+    .container-fluid{
+        background-color: black;
+    }
+}
+
+/* -------------------------------------------main starts from here--------------------------------------------------------------------*/
+
+main{
+    background-color: black;
+    height: auto;
+}
+
+/* ---------------------------------------------CONTACT------------------------------------------------------------------- */
+
+.address{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.address section{
+    width: 50%;
+}
+
+.address-info{
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 3%;
+    display:flex;
+    flex-direction: row;
+}
+
+.detail-header p{
+    font-size: 36px;
+    text-decoration: underline red;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.detail-para{
+    font-size: 18px;
+    color: #ffff;
+    width: 80%;
+}
+
+.contact-header p{
+    font-size: 36px;
+    text-decoration: underline red;
+    font-weight: 700;
+    color: #ffff;
+    width: 100%;
+}
+
+.contact-para p{
+    font-size: 18px;
+    color: #ffff;
+    width: 80%;
+}
+
+.address-info section{
+    width: 100%;
+}
+
+.address-section{
+    width: 100%;
+}
+
+.address-section section{
+    width: 100%;
+}
+
+.contact{
+    margin-top: 3%;
+    width: 100%;
+}
+
+.map{
+    width: 80%;
+    margin-left: 5%;
+}
+
+
+.contact-info .header p{
+    font-size: 36px;
+    text-decoration: underline red;
+    font-weight: 700;
+    color: #ffff;
+    width: 400%;
+    text-align: center;
+}
+
+/* ---------------------------------------------form--------------------------------------------------------------------- */
+
+.form-group{
+    width: 450%;
+}
+
+.form-row{
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.col{
+    width: 100%;
+    margin-top: 5%;
+}
+
+input{
+    width: 100%;
+}
+
+.form-control-dd{
+    width: 100%;
+    border-style: none;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.btn{
+    margin-top: 2%; 
+   
+}
+
+.btn button{
+    background-color: red;
+    color: #fff;
+    border-radius: 10px;
+    border-style: none;
+    width: 200%;
+    height:40px;
+    margin-left: 400%;
+}
+
+/* ---------------------------------------------media query------------------------------------------------------------------- */
+
+@media screen and ( max-width:900px ) {
+    .address{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    .contact-info .header p{
+        width: 200%;
+    }
+    .form-group{
+        width: 230%;
+    }
+    .btn button{
+        width: 150%;
+        margin-left:0%;
+    }
+
+    .address-info{
+        width: 80%;
+        margin-left: 10%;
+        padding-top: 3%;
+        display:flex;
+        flex-direction: column;
+    }
+    .address-info section{
+        width: 200%;
+    }
+
+    .map{
+        width: 100%;
+        margin-left: 20%;
+    }
+}
+
+@media screen and ( max-width:600px ){
+
+    .map{
+        width: 100%;
+        margin-left: 20%;
+    }
+    
+    iframe{
+        width: 150%;
+    }
+}
+
+@media screen and ( max-width:280px ){
+
+    .map{
+        width: 100%;
+        margin-left: 20%;
+    }
+    
+    iframe{
+        width: 150%;
+    }
+}
+
+/* ---------------------------------------------footer------------------------------------------------------------------- */
+
+
+.footer-main{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.aki-main{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.aki-main p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.icons{
+    justify-content: center;
+    margin-left: 40%;
+}
+
+.aki-main img{
+    height: 80px;
+    width: fit-content;
+}
+
+.aki-list{
+    width: 20%;
+    margin-left: 5%;
+}
+
+.aki-list li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.aki-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+.foot_p{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.contact{
+    width: 20%;
+    margin-left: 5%;
+}
+
+.contact p.foot_p{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: -15%;
+}
+
+.contact p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.design-by{
+    width: 90%;
+    margin-left: 5%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2.5%;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #d8d8d8;
+}
+
+@media screen and ( max-width:900px) {
+    .footer-main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aki-main{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .aki-main img{
+        height: 60px;
+        width: fit-content;
+    }
+    
+    .aki-list{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    
+    .contact{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    .contact p.foot_p{
+        margin-top: 0%;
+    }
+}
